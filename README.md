@@ -1,24 +1,51 @@
-# README
+# Personal Dashboard
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## System Info
 
-Things you may want to cover:
+### Stack
+- ruby 2.4.0p0
+- rails 5.1.6
 
-* Ruby version
+## Setup Instructions
+clone from github
 
-* System dependencies
+- `bundle install`
 
-* Configuration
+### Run Test Suite
+- `rspec`
 
-* Database creation
+- `rspec <file_name>`
 
-* Database initialization
+- `rspec <file_name>:<line_number>`
 
-* How to run the test suite
+### Development Notes
 
-* Services (job queues, cache servers, search engines, etc.)
+We are using W3Schools schools for all CSS. This will have 99% of what you will need.
+Almost no need to create custom CSS for this project
 
-* Deployment instructions
+[Check it out](https://www.w3schools.com/w3css/w3css_intro.asp)
 
-* ...
+### Setup guide
+- clone the repo
+- `bundle install`
+- `rails s`
+- done, fire up your browser and browse to `http://localhost:3000`
+### Development Notes
+
+
+
+<!--* System dependencies-->
+
+<!--* Configuration-->
+
+<!--* Database creation-->
+
+<!--* Database initialization-->
+
+<!--* How to run the test suite-->
+
+<!--* Services (job queues, cache servers, search engines, etc.)-->
+
+<!--* Deployment instructions-->
+
+<!--* ...-->
