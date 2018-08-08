@@ -12,11 +12,11 @@ clone from github
 - `bundle install`
 
 ### Run Test Suite
-- `rspec`
+- `rspec` Run all tests
 
-- `rspec <file_name>`
+- `rspec <file_name>` Run only one file
 
-- `rspec <file_name>:<line_number>`
+- `rspec <file_name>:<line_number>` Run only one particular test in a given file
 
 ### Development Notes
 
