@@ -1,5 +1,4 @@
 # Personal Dashboard
-did this change in the right place
 
 ## System Info
 
