@@ -38,8 +38,8 @@ Almost no need to create custom CSS for this project
 
 #### Heroku
 
-- [development QA branch](https://dev-personal-dashboard.herokuapp.com/)
-- [LIVE branch](https://live-personal-dashboard.herokuapp.com/)
+- [development QA branch](https://dev-my-personal-dashboard.herokuapp.com/)
+- [LIVE branch](https://my-personal-dashboard.herokuapp.com/)
 
 
 
