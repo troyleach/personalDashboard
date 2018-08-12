@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'home#index'
+  root 'users#new'
   resources :users
+
+  get '/home', to: 'home#index', as: 'home'
 
 end

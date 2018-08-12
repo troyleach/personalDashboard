@@ -22,7 +22,7 @@ RSpec.describe UsersController, type: :controller do
         users = User.all
         expect(users.length).to eq(1)
         expect(subject.request.flash[:success]).to eq('Successfully signed up')
-        expect(response).to redirect_to( root_path )
+        expect(response).to redirect_to( home_path )
       end
 
       it "negative result, password not long enough" do
