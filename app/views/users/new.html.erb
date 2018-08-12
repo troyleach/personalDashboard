@@ -12,10 +12,12 @@
             <%= f.submit :Signup, :class => 'signup-button' %>
         </div>
     <% end %>
+
+    <!-- Below is the code that needs to go in for displaying errors messages -->
     <% if @user.errors.any? %>
         <ul class="Signup_Errors">
             <% for message_error in @user.errors.full_messages %>
-                <li>* <%= message_error %></li>
+                <li class="alert alert-warning"><%= message_error %></li>
             <% end %>
         </ul>
     <% end %>
