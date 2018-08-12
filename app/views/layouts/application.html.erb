@@ -55,7 +55,16 @@
             </ul>
         </div>
 
-        <%= yield %>
+        <div class='yield-container'>
+            <div id="flash">
+                <% flash.each do |key, value| %>
+                    <div class="alert alert-<%= key %>">
+                            <%= value %>
+                   </div>
+                <% end %>
+            </div>
+          <%= yield %>
+        </div>
 
         <!-- Footer -->
         <footer class="w3-container w3-theme-d3 w3-padding-16">
