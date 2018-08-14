@@ -21,9 +21,11 @@ class SessionsController < ApplicationController
   def destroy
     session.delete(:user_id)
     @current_user = nil
-    flash[:success] = 'You have looged out'
+    flash[:success] = 'You have logged out'
     redirect_to login_path
   end
+
+  private
 
   def session_params
     params.require(:session).permit(:email, :password)
